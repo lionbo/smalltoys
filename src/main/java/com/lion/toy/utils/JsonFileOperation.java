@@ -1,4 +1,4 @@
-package com.lion.toy;
+package com.lion.toy.utils;
 
 import com.lion.toy.data.Record;
 

@@ -1,2 +1,10 @@
-package com.lion.toy.data;public class Record {
+package com.lion.toy.data;
+
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+public class Record {
+    private List<Order> orders;
 }

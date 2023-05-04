@@ -73,6 +73,14 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.3.0</version>
+				<configuration>
+					<outputDirectory>${project.build.directory}/../libs</outputDirectory>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
